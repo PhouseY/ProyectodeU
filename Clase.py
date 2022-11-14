@@ -219,6 +219,7 @@ class Login_Polimed:
         self.Espacio_Emergencia6 =Label(self.pestana1, text="", bg = "light slate blue").pack()
         self.BotonCerrar = Button(self.pestana1,text= "Salir", bg = "light slate blue", font =("Comic Sans MS", 12), command= self.Cerrar_ventana).pack()
         self.ventana2.mainloop()        
+
 ############## HERENCIA DE VENTANA Y MAINLOOP############################# Hello how are you
 def inicio():
     ventana = Tk()
